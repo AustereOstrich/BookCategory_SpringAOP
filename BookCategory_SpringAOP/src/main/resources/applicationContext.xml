@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="book1" class="com.matthewharrop.part1assignment2.Book">
+        <constructor-arg value="0001" type="java.lang.Long"/>
+        <constructor-arg value="123456789" type="java.lang.String"/>
+        <constructor-arg value="All Quiet on the Western Front" type="java.lang.String"/>
+        <constructor-arg value="9.99" type="java.lang.Float"/>
+    </bean>
+
+    <bean id="book2" class="com.matthewharrop.part1assignment2.Book">
+        <constructor-arg value="0002" type="java.lang.Long"/>
+        <constructor-arg value="234567891" type="java.lang.String"/>
+        <constructor-arg value="Eragon" type="java.lang.String"/>
+        <constructor-arg value="14.98" type="java.lang.Float"/>
+    </bean>
+
+    <bean id="book3" class="com.matthewharrop.part1assignment2.Book">
+        <constructor-arg value="0005" type="java.lang.Long"/>
+        <constructor-arg value="811238152" type="java.lang.String"/>
+        <constructor-arg value="Leviathan" type="java.lang.String"/>
+        <constructor-arg value="22.99" type="java.lang.Float"/>
+    </bean>
+
+    <bean id="blankBook" class="com.matthewharrop.part1assignment2.Book"/>
+
+</beans>
